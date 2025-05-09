@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(44, 211, 133);
+}
+.myform{
+background-color: white;
+align-items: center;
+border-radius: 15px;
+width: 26em;
+padding: 60px;
+margin: 60px;
+padding-left: 60px;
+margin-top: 400px;
+margin-left: 700px;
+font-size: 30px;
+justify-content: center;
+align-items: center;
+}
+
+form{
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    text-align: auto;
+    padding: 10px;
+    
+}
+
+
+.ftex{
+    border-radius: 10px;
+    padding: 10px;
+    width: 20rem;
+}
+.ltex{
+    border-radius: 10px;
+    padding: 10px;
+    width: 20rem;
+    margin-left: 1rem;
+}
+
+.lname{
+    margin-left: 22rem;
+    margin-top: -4rem;
+}
+
+.emtex{
+    border-radius: 10px;
+    padding: 10px;
+    width: 43rem;
+
+}
+
+.enqry{
+    border: 1px solid black;
+    width: 20rem;
+    border-radius: 10px;
+}
+#supp{
+    margin-top: -4.5rem;
+    margin-left: 25rem ;
+}
+#message{
+    border-radius: 10px;
+    padding: 30px;
+    width: 41rem;
+}
+
+#submit{
+    margin-left: 3rem ;
+    padding: 20px;
+    border-radius: 10px;
+    width: 41rem;
+    tab-size: 20px;
+    background-color: rgb(5, 108, 116);
+    color: white;
+
+
+}
+
+.attribution{
+font-size: 40px;
+ margin-left: -34rem ;
+padding: 20px;
+
+}

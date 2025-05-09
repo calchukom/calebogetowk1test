@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="myform">
+    <form action="">
+      <h2>Contact Us</h2>
+      <div class="fname">
+      <label for="First name">First Name</label><br>
+      <input type="text" for="firstname" name="firstname" required class="ftex"> 
+      </div>
+      <div class="lname">
+        <label for="Last name">Last Name</label><br>
+      <input type="text" for="lastname" name="lastname" required class="ltex">
+      </div>
+      <div>
+        <label for="email">Email Address</label><br>
+      <input type="email" name="email" id="email" required class="emtex">
+      </div>
+      <div>
+      <label for="Querytype">Query Type</label><br>
+      </div>
+      <div class="enqry">
+        <input type="radio" name="query"> General Enquiry <br>
+      </div> <br>
+      <div class="enqry" id="supp">
+        <input type="radio" name="query">Support Request <br>
+      </div>
+      <div>
+        <label for="message">Message</label> <br>
+      <textarea name="message" id="message"></textarea><br>
+      </div>
+      <div>
+        <input type="checkbox"> I consent to being contacted by the team
+      </div>
+
+      <input type="submit" name="submit" id="submit">
+        
+    </form>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Caleb Ogeto</a>.
+  </div>
+</body>
+</html>
